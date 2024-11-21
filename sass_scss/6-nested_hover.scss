@@ -1,12 +1,11 @@
 /* Nested hover
 change button color on hover */
 
-$color-0: #FF0000;
-$color-1: #00FF00;
-button {
-    color: #FF0000;
+button.task {
+  color: #FF0000; // Default text color
 
-    &:hover {
-        color: #00FF00;
-    }
+  &:hover {
+    color: #00FF00; // Text color on hover
+  }
 }
+
